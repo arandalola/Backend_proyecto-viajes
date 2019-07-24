@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="cajaRegistroLogin">
+        <p class="tittle">REGISTRO</p>
+        <p>¿Ya estas registrado?</p>
+        <form method="POST" action="users/register">
+            <input type="text" name="username" placeholder="Usuario" class="input" required/>
+            <input type="email" name="email" placeholder="Email" class="input" required/>
+            <input type="password" name="password" placeholder="Contraseña" class="input" required/>
+            <input type="password" name="passwordConfirm" placeholder="Repetir contraseña" class="input" required/>
+            <div>
+                <input type="checkbox" name="acepto" id="check" value="check"required/>
+                <label for="check">Acepto los términos y condiciones, así como la política de privacidad.</label>
+            </div>
+            <div>
+                <input type="submit" value="Enviar" class="submit"/>
+            </div>
+        </form> 
+    </div>
+</div>
